@@ -1,0 +1,41 @@
+.cityWeatherContainer {
+    height: calc(100% - 100px);
+}
+
+.currTemContainer {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    flex: 0.1;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.forecastContainer {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.cardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex: 0.9;
+}
+
+.cardsContainer.current {
+    justify-content: center;
+}
