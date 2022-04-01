@@ -15,6 +15,12 @@ export default (state, action) => {
                 selectedCity: payload
             }
         }
+        case 'SET_ERROR': {
+            return {
+                ...state,
+                error: payload
+            }
+        }
         default:
             return state;
     }
