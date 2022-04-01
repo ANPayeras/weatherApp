@@ -1,4 +1,4 @@
-export default (state, action) => {
+const wheatherReducer = (state, action) => {
 
     const { payload, type } = action
 
@@ -25,3 +25,5 @@ export default (state, action) => {
             return state;
     }
 };
+
+export default wheatherReducer
